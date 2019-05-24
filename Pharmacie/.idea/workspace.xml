@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af175dfb-013f-48a7-85f3-7b052e0a726f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GestionTransport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Employe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/ContratController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/ContratEmployeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/EmployeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Controllers/TypeContratController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/database/migrations/2019_04_26_135319_api_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportBack/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTransportFront" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModelGestionTransport.mdj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModelGestionTransport.mdj.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/Article.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/Commande.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/FamilleMedicamentArticle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/Forme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/Rayon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/SingleConnection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testemySQL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gestionHopital/SchoolGestion" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Pharmacie" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modele/FamilleMedicamentArticle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding>
+                <element signature="e#21#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modele/Commande.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modele/SingleConnection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calculator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="80" column="27" lean-forward="true" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Modele/article.py" />
+        <option value="$PROJECT_DIR$/Modele/Article.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/testemySQL.py" />
+        <option value="$PROJECT_DIR$/Modele/Rayon.py" />
+        <option value="$PROJECT_DIR$/Modele/__init__.py" />
+        <option value="$PROJECT_DIR$/Modele/Forme.py" />
+        <option value="$PROJECT_DIR$/Modele/FamilleMedicament.py" />
+        <option value="$PROJECT_DIR$/database.py" />
+        <option value="$PROJECT_DIR$/View/commande.py" />
+        <option value="$PROJECT_DIR$/Modele/Commande.py" />
+        <option value="$PROJECT_DIR$/Modele/FamilleMedicamentArticle.py" />
+        <option value="$PROJECT_DIR$/Modele/SingleConnection.py" />
+        <option value="$PROJECT_DIR$/calculator.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Pharmacie.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="160" />
+    <option name="y" value="96" />
+    <option name="width" value="960" />
+    <option name="height" value="581" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pharmacie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pharmacie" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.FamilleMedicamentArticle">
+    <configuration name="FamilleMedicamentArticle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pharmacie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modele" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modele/FamilleMedicamentArticle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SingleConnection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pharmacie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modele" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modele/SingleConnection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pharmacie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pharmacie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.FamilleMedicamentArticle" />
+      <item itemvalue="Python.SingleConnection" />
+      <item itemvalue="Python.database" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.FamilleMedicamentArticle" />
+        <item itemvalue="Python.database" />
+        <item itemvalue="Python.SingleConnection" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af175dfb-013f-48a7-85f3-7b052e0a726f" name="Default Changelist" comment="" />
+      <created>1558004818295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558004818295</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="-1" width="1286" height="777" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49947754" visible="true" weight="0.17423014" />
+      <window_info id="Structure" order="1" sideWeight="0.5005225" side_tool="true" weight="0.16595517" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005225" side_tool="true" weight="0.16595517" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34064785" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.32977587" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Modele/article.py" />
+    <entry file="file://$PROJECT_DIR$/View/#Main.glade#" />
+    <entry file="file://$PROJECT_DIR$/View/Main.glade">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/Article.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/Forme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testemySQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/Rayon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="24" lean-forward="true" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#21#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/commande.py" />
+    <entry file="file://$PROJECT_DIR$/Modele/FamilleMedicamentArticle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding>
+            <element signature="e#21#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/Commande.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/SingleConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="80" column="27" lean-forward="true" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
